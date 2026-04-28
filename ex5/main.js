@@ -1,18 +1,31 @@
-// ================== EXERCICE 5 ====================  ============> issue
-let imagesRecup = document.querySelectorAll("images");
+// ================== EXERCICE 5 ==================== 
+let imagesRecup = document.querySelectorAll("img");
+// console.log(imagesRecup);
 
-console.log(imagesRecup);
+imagesRecup.forEach((image) => {
+  image.addEventListener("mouseover", handleMouseoverOnImage);
+});
 
-imagesRecup.addEventListener("mouseover", handleMouseoverOnImage);
+// function handleMouseoverOnImage(evenement) {
+//    let Mouseover = evenement.target;
+//   imagesRecup.src = "./images/image1_2.jpg";
 
 function handleMouseoverOnImage(evenement) {
-  // console.log(imagesRecup.src);
-
-  let Mouseover = evenement.target;
-
-  imagesRecup.src = "./image1_2.jpg"
-  imagesRecup.src = "./image1_2.jpg"
-  imagesRecup.src = "./image1_2.jpg"
-  imagesRecup.src = "./image1_2.jpg"
-  imagesRecup.src = "./image1_2.jpg"
+  let imageMouseover1 = evenement.target;
+  imageMouseover1.src = "./images/image1_2.jpg";
 }
+
+// function handleMouseoverOnImage(evenement) {
+//   let imageMouseover2 = evenement.target;
+//   imageMouseover2.src = "./images/image2_2.jpg";
+// }
+
+
+  // imagesRecup.src = "./images/image2_2.jpg";
+  // imagesRecup.src = "./images/image3_2.jpg";
+  // imagesRecup.src = "./images/image4_2.jpg";
+  // imagesRecup.src = "./images/image5_2.jpg";
+
+  // console.log(imagesRecup.src);
+ 
+// }

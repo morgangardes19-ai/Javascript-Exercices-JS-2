@@ -1,4 +1,4 @@
-// <!-- ============ EXERCICE 3 ================= -->       ========> issue
+// <!-- ============ EXERCICE 3 ================= --> 
 let inputName = document.querySelector("#lastname");
 // console.log(inputName);
 

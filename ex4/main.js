@@ -1,4 +1,4 @@
-// ================== EXERCICE 4 =================     ==========> même issue
+// ================== EXERCICE 4 =================
 let clickButton = document.querySelector("button");
 // console.log(clickButton);
 
