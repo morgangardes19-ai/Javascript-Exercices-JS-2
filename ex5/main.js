@@ -15,6 +15,10 @@ function handleMouseoverOnImage(evenement) {
   imageMouseover1.src = "./images/image1_2.jpg";
 }
 
+function handleMouseoverOnImage(evenement) {
+  
+}
+
 // function handleMouseoverOnImage(evenement) {
 //   let imageMouseover2 = evenement.target;
 //   imageMouseover2.src = "./images/image2_2.jpg";
