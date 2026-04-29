@@ -12,10 +12,10 @@ function handleMouseoverOnImage(evenement) {
 }
 
 imagesRecup.forEach((image) => {
-  image.addEventListener("mouseout", handleMouseoverOnImage);
+  image.addEventListener("mouseout", handleMouseOut);
 });
 
-function handleMouseoverOnImage(evenement) {
-     let iMouseover2 = evenement.target;
-      iMouseover2.src = iMouseover2.src.replace("_2.jpg", ".jpg");
+function handleMouseOut(evenement) {
+     let iMouseout = evenement.target;
+      iMouseout.src = iMouseout.src.replace("_2.jpg", ".jpg");
 }
